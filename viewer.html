@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title>Wikipedia Viewer</title>
+
+  <meta charset="utf-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <!-- OG properties -->
+  <meta property="fb:app_id" content="277362049270081" />
+  <meta property="og:url" content="http://www.jwaynedavidson.com/projects/wikipedia-viewer/viewer.html" />
+  <meta property="og:title" content="Wikipedia Viewer" />
+  <meta property="og:image" content="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png" />
+
+  <!-- Links -->
+  <!--<link rel="shortcut icon" href="../../favicon.ico">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="../../scripts/gatracking.js"></script>
+</head>
+
+
+<body>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div id="search-block" class="text-center">
+          <p id="search-instructions">Search Wikipedia</p>
+          <form id="form">
+            <input id="input-field" type="text" name="searchTerm">
+          </form>
+          <p id="random-article">
+            or get a <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">random article</a>
+          </p>
+        </div>
+        <div id="credits-block" class="text-center">
+          Coded by <a href="https://jwaynedavidson.com">Joshua Davidson</a>
+        </div>
+        <div class="text-center">
+          <img id="loading-img" src="./img/ajax-loader.gif" alt="loading" height="42" width="42">
+        </div>
+        <div id="results-block"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="./scripts/main.js"></script>
+
+</body>

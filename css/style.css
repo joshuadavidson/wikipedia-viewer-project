@@ -1,0 +1,72 @@
+/* Tag attributes */
+
+body {
+  font-family: 'Open-Sans', sans-serif;
+  background: #084887;
+  color: #F7F5FB;
+}
+a {
+  text-decoration: inherit;
+  font-style: inherit;
+  color: #F7F5FB;
+}
+a:link, a:visited {
+  color: #F7F5FB;
+  cursor: auto;
+}
+a:focus {
+  text-decoration: none;
+}
+a:link:active, a:visited:active {
+  color: #F7F5FB;
+}
+input {
+  background-color: #F7F5FB;
+  color: #084887;
+  outline: none;
+}
+
+/* Created classes*/
+
+.result {
+  padding: 10px;
+  color: #084887;
+  background-color: #F7F5FB
+}
+.result-selected {
+  background-color: #BFCFFF;
+}
+.result-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Created IDs */
+
+#results-block {
+  background-color: #F7F5FB;
+}
+#results-block a:link {
+  text-decoration: none;
+}
+#search-block {
+  font-size: 24px;
+  padding-top: 30%;
+  margin: 20px;
+}
+#loading-img {
+  margin: 20px;
+}
+#credits-block {
+  font-size: 12px;
+  margin: 10px;
+}
+#random-article {
+  font-size: 18px;
+}
+
+/* Modified bootstrap classes */
+
+.row {
+  padding-bottom: 20px;
+}
