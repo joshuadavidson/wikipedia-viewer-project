@@ -6,7 +6,7 @@ module.exports = {
   devtool: null,
   entry: './index.js',
   output: {
-    path: path.join(__dirname, '/public'),
+    path: path.join(__dirname, '/dist'),
     filename: 'app.min.js',
   },
   module: {
