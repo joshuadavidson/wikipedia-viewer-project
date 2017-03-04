@@ -1,6 +1,10 @@
 /* establish global variables for ESLint */
-/* global $ document */
 /* global window document */
+
+import $ from 'jquery';
+
+// import custom styles for project
+import './index.scss';
 
 // function that takes each result and returns it in HTML format
 function createResultHTML(title, extract, pageURL, imgURL) {
